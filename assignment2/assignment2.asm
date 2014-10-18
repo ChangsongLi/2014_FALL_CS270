@@ -3,7 +3,7 @@
 
 	.data
 arr:	.space	124				# create a int arr with size 32
-	.align	4				# align data segment after each int
+	.align	2				# align data segment after each int
 	
 # end of data segment
 
