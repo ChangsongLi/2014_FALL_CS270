@@ -6,6 +6,7 @@
 
 	.data
 arr:	.space	80						# apply the memory for the array with size 20 integers
+	.align 2						# align data segment
 size:	.asciiz	"Enter the number of elements in the array: "	# create a null-terminated string.
 	.align 2						# align data segment after each string
 num:	.asciiz	"Enter the array elements: "			# create a null-terminated string.
